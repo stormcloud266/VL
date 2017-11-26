@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://www.thesmokingcrow.com/main-sc</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2017-04-05</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/57632caad482e984e1143818/1466117302995/</image:loc>
+      <image:title>Home</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5761e26c44024394189c43c1/1466032749873/smoking+crow+wall2.jpg</image:loc>
+      <image:title>Home</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5761e281414fb5a52ebdf8ca/1466032770231/long+view.jpg</image:loc>
+      <image:title>Home</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5761e290414fb5a52ebdf91e/1466032785451/birdcage+lights.jpg</image:loc>
+      <image:title>Home</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5762f8d8bebafb91cc336231/1466104036209/IMG_2401.jpg</image:loc>
+      <image:title>Home</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/58e4571ef7e0abde3be636fe/1491359557196/lady_cage.png</image:loc>
+      <image:title>Home</image:title>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesmokingcrow.com/menu</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-03-29</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58d5406dbf629af8699ad888/1490370682010/smoking+crow+menu+inside.jpg</image:loc>
+      <image:title>Menu</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesmokingcrow.com/specials</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2016-11-02</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/581949d79f7456744433c43f/1478052325001/House+Crows+Special</image:loc>
+      <image:title>SPECIALS</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesmokingcrow.com/yellow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-07-06</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58e729cc6b8f5b4c80013232/1491544595783/</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58e123e6c534a5778c4c288f/1491445237777/yellow</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58e62b6846c3c41486211a4b/1491495433962/No+reservation+needed.</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58e866ba414fb5fae55193c8/1491628210280/Tuesday.</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58e0165c86e6c029f7c298af/1491445369400/the+corner</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58e3adede6f2e1ee34e43189/1491445339767/</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/595e4999e58c62e38b01b46e/1499351506171/Listen</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/58e4538059cc68d34c710b91/1491358920511/Names+are+important.</image:loc>
+      <image:title>The Yellow Room</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesmokingcrow.com/serpentsaresportrestoretree</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-05-14</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/5918977e1b631b17b50db809/1494783893251/serpentsaresportrestoretree</image:loc>
+      <image:title>serpentsaresportrestoretree</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesmokingcrow.com/cass</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-08-19</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/599881e1e6f2e19ff030a6b3/1503166961147/back.jpg</image:loc>
+      <image:title>Cassiopeia</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/5998820803596e31f5cc67a8/1503167003961/front.jpg</image:loc>
+      <image:title>Cassiopeia</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/t/5953d3be3e00be2533c34436/1498665922131/Screen+Shot+2017-06-28+at+9.59.34+AM+copy.png</image:loc>
+      <image:title>Cassiopeia</image:title>
+    </image:image>
+  </url>
+</urlset>
+

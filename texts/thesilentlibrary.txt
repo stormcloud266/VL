@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://www.thesilentlibrary.org/collection</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-06-15</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/580780e78419c225a0ec1640/1497448969273/dead+valley.png</image:loc>
+      <image:title>collection - The Dead Valley</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/580780e7b8a79bb7975bc449/1497448979526/devil%27s+dictionary.png</image:loc>
+      <image:title>collection - The Devil's Dictionary</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/580780f68419c225a0ec170c/1497449052110/the+dead+smile.png</image:loc>
+      <image:title>collection - The Dead Smile</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58769da0f5e231f7a6c7fde9/1497449019909/the+hound.png</image:loc>
+      <image:title>collection - The Hound</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58b886aef5e231b74af3cc80/1497448987939/chick.png</image:loc>
+      <image:title>collection - Chicamauga</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58be1552579fb3f6f0ec49d4/1497449040517/upper+berth.png</image:loc>
+      <image:title>collection - The Upper Berth</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58be1d8b20099e2d8e709d0f/1497449029478/monkeyspaw.png</image:loc>
+      <image:title>collection - The Monkey's Paw</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58bf1eaa414fb542366ce4a2/1497449074755/white+rabbits.png</image:loc>
+      <image:title>collection - White Rabbits</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58bf281d46c3c4dee0b71d60/1497448998123/haunter.png</image:loc>
+      <image:title>collection - The Haunter of the Dark</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58c96438a5790a58d71571b8/1497449009555/shunnedhouse.png</image:loc>
+      <image:title>collection - The Shunned House</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58c96caf725e25ec86ab787b/1497537551373/gateway+monster.png</image:loc>
+      <image:title>collection - The Gateway of the Monster</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58cb30eee6f2e1c3274ff7a3/1497449081409/hounds.png</image:loc>
+      <image:title>collection - The Hounds of Tindalos</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58cb7b4dcd0f68c20a659e95/1497449088584/He.png</image:loc>
+      <image:title>collection - He?</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/58ee5657db29d688fa211d31/1492014740797/Checked+out.png</image:loc>
+      <image:title>collection - This Volume is currently checked out.</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/58077f9c5016e1b66e7267d8/594146a89f7456713f7d19e9/1497450203521/suitible+surroundings.png</image:loc>
+      <image:title>collection - The Suitable Surroundings</image:title>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59429c0ff7e0abd81f06542c/1497448969273/</image:loc>
+      <image:title>collection - The Dead Valley</image:title>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/the-silent-library-home</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2017-01-14</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5879c15fbebafbe8c6a38c3d/1484374421114/Silent+Tower.png</image:loc>
+      <image:title>The Silent Library Home</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/view-the-collection</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-03-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/page7</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-02-24</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/58b0b8b415d5dbf879b90faa/1487976643396/</image:loc>
+      <image:title>7</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/the-window</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-03-15</lastmod>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/serpentsaresportrestoretree</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-05-15</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59190d7be3df28cc11fec95a/1494814104462/sl.jpg</image:loc>
+      <image:title>serpentsaresportrestoretree</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/depurna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-09-18</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59bfd9c22994cad96d3aae6c/1505746238469/dapurna_wing_portrait.jpg</image:loc>
+      <image:title>Depurna</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/the-whispering-gallery-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-10-11</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e4ef5e231bb8c783261/1507737167079/quite_+bleak.png</image:loc>
+      <image:title>The Whispering Gallery 101117</image:title>
+      <image:caption>2</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e55cd0f68e1a9794c0d/1507737173504/quite_+bleak.png</image:loc>
+      <image:title>The Whispering Gallery 101117</image:title>
+      <image:caption>3</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e6018b27d4fb91a005f/1507737188378/quite_+bleak.png</image:loc>
+      <image:title>The Whispering Gallery 101117</image:title>
+      <image:caption>5</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e6b18b27d4fb91a0183/1507737195957/quite_+bleak.png</image:loc>
+      <image:title>The Whispering Gallery 101117</image:title>
+      <image:caption>6</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e49f6576ef4c0bde4b4/1507737161565/quite_+bleak.png</image:loc>
+      <image:title>The Whispering Gallery 101117</image:title>
+      <image:caption>1</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e5accc5c5627a4f305e/1507737179289/quite_+bleak.png</image:loc>
+      <image:title>The Whispering Gallery 101117</image:title>
+      <image:caption>4</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e70edaed89a417b6dd0/1507737201828/quite_+bleak.png</image:loc>
+      <image:title>The Whispering Gallery 101117</image:title>
+      <image:caption>7</image:caption>
+    </image:image>
+  </url>
+</urlset>
+

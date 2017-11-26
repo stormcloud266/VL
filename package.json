@@ -1,0 +1,18 @@
+{
+  "name": "vebslight",
+  "version": "1.8.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "get-json": "^1.0.0",
+    "is-json": "^2.0.1",
+    "nightmare": "^2.10.0",
+    "twit": "^2.2.9"
+  }
+}

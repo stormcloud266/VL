@@ -1,0 +1,7 @@
+.DS_Store
+config.json
+/imgs
+/node_modules
+practice.js
+sshconnect.sh
+VebsLight.pem
