@@ -15,7 +15,7 @@ let T = new Twit({
   consumer_secret:      config.consumersecret,
   access_token:         config.accesstoken,
   access_token_secret:  config.accesstokensecret,
-  timeout_ms:           60*1000,
+  timeout_ms:           60*1000
 })
 
 
@@ -24,7 +24,6 @@ bot.on('ready', () => { bot.user.setGame('v.help') })
 
 
 bot.on('message', async message => {
-
 
 
 	if(message.content.substr(0,2).toLowerCase() !== config.prefix || message.author.bot) return;
@@ -66,7 +65,6 @@ bot.on('message', async message => {
 				break;
 
 			case 'wiki':
-
 				let noSpace = messageCont.splice(0,1)
 				let searchTerm = messageCont.toString().replace(/,/g," ");
 				getWiki(searchTerm, message.channel);
@@ -129,7 +127,7 @@ bot.on('message', async message => {
 ///////////// get and compare site data /////////////
 
 function checkSites(channel) {
-  for (var i = 0; i < sites.length; i++) {
+  for (let i = 0; i < sites.length; i++) {
    sitemapRequest(sites[i], channel)
    getContModDate(sites[i], channel)
   }
@@ -185,8 +183,8 @@ function getContModDate(link, channel) {
 
     request(options, function(error, response, body) {
       if(error) {console.log('error')}
-      let info = JSON.parse(body)
-      let millis = info.website.contentModifiedOn
+      let info = JSON.parse(body);
+      let millis = info.website.contentModifiedOn;
 
       if (millis < todaysMillis) {
         channel.send('no changes at ' + link.split('.')[1])
@@ -197,7 +195,6 @@ function getContModDate(link, channel) {
 
   
 }
-
 
 
 ///////////// end of site data /////////////
