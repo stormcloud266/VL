@@ -3,11 +3,14 @@ Twit = require('twit'),
 config = require("./config.json"),
 request = require('request'),
 fs = require('fs'),
+
 scraper = require('./scripts/scraper'),
+astrology = require('./scripts/astrology'),
 deleteAndWrite = require('./scripts/deleteAndWrite'),
 twitter = require('./scripts/twitter'),
 wiki = require('./scripts/wiki'),
 replyPhrases = require('./scripts/replyPhrases'),
+
 bot = new Discord.Client();
 
 
@@ -50,6 +53,7 @@ bot.on('message', async message => {
 				break;
 
 			case 'homies':
+			case 'boom':
 				message.channel.send({
 					"files": [`imgs/${trigger}.gif`]
 				});
@@ -74,6 +78,22 @@ bot.on('message', async message => {
 				message.channel.send(eggplant);
 				break;
 
+
+/////////// horoscope ///////////
+		case 'aries':
+		case 'taurus':
+		case 'gemini':
+		case 'cancer':
+		case 'leo':
+		case 'virgo':
+		case 'libra':
+		case 'scorpio':
+		case 'sagittarius':
+		case 'capricorn':
+		case 'aquarius':
+		case 'pisces':
+			astrology.fetchHoroscope(trigger, message.channel);
+			break;
 
 /////////// twitter and wikipedia ///////////
 			case 'currentderp':
@@ -105,6 +125,7 @@ bot.on('message', async message => {
 					deleteAndWrite.deleteFiles(sites, message.channel)
 				} else (message.channel.send('you do not have permission to do this'))
 				break;
+
 
 
 /////////// default ///////////
