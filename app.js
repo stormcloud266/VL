@@ -5,6 +5,7 @@ request = require('request'),
 fs = require('fs'),
 
 scraper = require('./scripts/scraper'),
+recipe = require('./scripts/recipe'),
 astrology = require('./scripts/astrology'),
 deleteAndWrite = require('./scripts/deleteAndWrite'),
 twitter = require('./scripts/twitter'),
@@ -72,6 +73,7 @@ bot.on('message', async message => {
 
 			case 'help':
 				message.author.send({ embed });
+				message.react("354089417461334018");
 				break;
 
 			case 'eggplant':
@@ -95,7 +97,8 @@ bot.on('message', async message => {
 			astrology.fetchHoroscope(trigger, message.channel);
 			break;
 
-/////////// twitter and wikipedia ///////////
+
+/////////// twitter, tumblr, and wikipedia ///////////
 			case 'currentderp':
 				twitter.getTwitter(...derp, message.channel);
 				break;
@@ -106,6 +109,10 @@ bot.on('message', async message => {
 
 			case 'vebswisdom':
 				replyPhrases.twitterMessage(trigger, 'https://twitter.com/VEBaring/status/', message.channel)
+				break;
+
+			case 'recipe':
+				recipe.getTumblr('daily-deliciousness', message.channel);
 				break;
 
 			case 'wiki':
@@ -178,7 +185,7 @@ const embed = {
   "fields": [
     {
       "name": "Eat, drink, and pet an animal.",
-      "value": "v.food\nv.coffee\nv.cats\nv.dogs\nv.brows"
+      "value": "v.food\nv.recipe\nv.coffee\nv.cats\nv.dogs\nv.brows"
     },
     {
       "name": "Useful things",
@@ -189,8 +196,12 @@ const embed = {
       "value": "v.currentderp\nv.currentcrab\nv.vebswisdom"
     },
     {
+      "name": "Horoscope",
+      "value": "v.yoursign (e.g., v.scorpio)"
+    },
+    {
       "name": "The rest",
-      "value": "v.homies\nv.toast\nv.eggplant\nv.compliment\nv.managementpassword\nv.forgiveme\nv.fucktrisk"
+      "value": "v.homies\nv.toast\nv.eggplant\nv.compliment\nv.managementpassword\nv.forgiveme\nv.fucktrisk\nv.boom"
     }
   ]
 };
