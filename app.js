@@ -133,6 +133,12 @@ bot.on('message', async message => {
 				} else (message.channel.send('you do not have permission to do this'))
 				break;
 
+			case 'updatemillis':
+				if (message.author.id == '308072773320835092') {
+					scraper.updateMillis(message.channel)
+				} else (message.channel.send('you do not have permission to do this'))
+				break;
+
 
 
 /////////// default ///////////

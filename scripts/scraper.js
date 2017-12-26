@@ -5,6 +5,14 @@ let todaysMillis = 1513638549603;
 
 
 
+
+module.exports.updateMillis = (channel) => {
+  let currentMillis = +new Date();
+  todaysMillis = currentMillis;
+  channel.send("Time updated");
+}
+
+
 /////// get and check site data ////////
 module.exports.checkSites = (sites, channel) => {
 
