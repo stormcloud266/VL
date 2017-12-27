@@ -19,6 +19,23 @@
     </image:image>
   </url>
   <url>
+    <loc>http://www.corvusfolio.com/ttw</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-12-24</lastmod>
+  </url>
+  <url>
+    <loc>http://www.corvusfolio.com/ttw/2017/12/24/a-reading-for-december</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-12-24</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/t/5a403829e2c4836cd1cd2aac/1514158161279/MargotG</image:loc>
+      <image:title>TTW - A Reading for December</image:title>
+      <image:caption>image courtesy of M</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>http://www.corvusfolio.com/the-corvus-folio</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -318,10 +335,10 @@
     </image:image>
   </url>
   <url>
-    <loc>http://www.corvusfolio.com/image-test</loc>
+    <loc>http://www.corvusfolio.com/new-page-3</loc>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
-    <lastmod>2017-11-26</lastmod>
+    <lastmod>2017-12-17</lastmod>
   </url>
   <url>
     <loc>http://www.corvusfolio.com/new-products</loc>

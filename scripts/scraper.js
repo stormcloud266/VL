@@ -1,15 +1,23 @@
 const request = require('request'),
 fs = require('fs');
 
-let todaysMillis = 1513638549603;
-
 
 
 
 module.exports.updateMillis = (channel) => {
+  
+  try {
+    fs.unlinkSync('../texts/millis.txt');
+  }
+  catch(e) {
+    console.log('writing new file')
+  }
   let currentMillis = +new Date();
-  todaysMillis = currentMillis;
+  fs.writeFile(__dirname + '/../texts/millis.txt', currentMillis, function(err) {
+        if(err) {return console.log(err);}
+      });
   channel.send("Time updated");
+
 }
 
 
@@ -59,26 +67,30 @@ function read(file, requestBody, link, channel){
 
 
 function getContModDate(link, channel) {
-  
-    let options = {
-    url: link + '?format=json',
-    headers: {
-      'User-Agent': 'request'
-      }
-    };
 
-    request(options, function(error, response, body) {
-      if(error) {console.log('error')}
-      let info = JSON.parse(body);
-      let millis = info.website.contentModifiedOn;
 
-      if (millis < todaysMillis) {
-        channel.send('no changes at ' + link.split('.')[1])
-      } else {
-        channel.send('**please check ' + link + '**')
-      }
-  });
+  let todaysMillis = fs.readFileSync(__dirname + '/../texts/millis.txt', 'utf-8')
+
+  let options = {
+  url: link + '?format=json',
+  headers: {
+    'User-Agent': 'request'
+    }
+  };
+
+  request(options, function(error, response, body) {
+    if(error) {console.log('error')}
+    let info = JSON.parse(body);
+    let millis = info.website.contentModifiedOn;
+
+    if (millis < todaysMillis) {
+      channel.send('no changes at ' + link.split('.')[1])
+    } else {
+      channel.send('**please check ' + link + '**')
+    }
+});
 }
+
 
 
 

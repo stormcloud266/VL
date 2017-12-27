@@ -139,44 +139,55 @@
     </image:image>
   </url>
   <url>
-    <loc>http://www.thesilentlibrary.org/the-whispering-gallery-1</loc>
+    <loc>http://www.thesilentlibrary.org/donors</loc>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
-    <lastmod>2017-10-11</lastmod>
+    <lastmod>2017-12-24</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e4ef5e231bb8c783261/1507737167079/quite_+bleak.png</image:loc>
-      <image:title>The Whispering Gallery 101117</image:title>
-      <image:caption>2</image:caption>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3c155e9140b7cd5729c815/1513887195528/gitrult.png</image:loc>
+      <image:title>Benefactors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e55cd0f68e1a9794c0d/1507737173504/quite_+bleak.png</image:loc>
-      <image:title>The Whispering Gallery 101117</image:title>
-      <image:caption>3</image:caption>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3c14e4085229f1e123e469/1513887184004/depurna2.png</image:loc>
+      <image:title>Benefactors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e6018b27d4fb91a005f/1507737188378/quite_+bleak.png</image:loc>
-      <image:title>The Whispering Gallery 101117</image:title>
-      <image:caption>5</image:caption>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a202d57ec212dc2678f6e12/1512058208226/benefactores.png</image:loc>
+      <image:title>Benefactors</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e6b18b27d4fb91a0183/1507737195957/quite_+bleak.png</image:loc>
-      <image:title>The Whispering Gallery 101117</image:title>
-      <image:caption>6</image:caption>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3fee9671c10b33732eb17a/1514139316006/mu-rong.png</image:loc>
+      <image:title>Benefactors</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/the-depurna-family</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-12-21</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e49f6576ef4c0bde4b4/1507737161565/quite_+bleak.png</image:loc>
-      <image:title>The Whispering Gallery 101117</image:title>
-      <image:caption>1</image:caption>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3c168d24a694df8668c3eb/1513887384299/Depurna.jpg</image:loc>
+      <image:title>The Depurna Family</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/the-gitrult-family</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-12-21</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e5accc5c5627a4f305e/1507737179289/quite_+bleak.png</image:loc>
-      <image:title>The Whispering Gallery 101117</image:title>
-      <image:caption>4</image:caption>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3c121571c10b9c1acc4bff/1513896219878/Gitrult</image:loc>
+      <image:title>The Gitrult Family</image:title>
     </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/the-murong-family</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-12-24</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/59de3e70edaed89a417b6dd0/1507737201828/quite_+bleak.png</image:loc>
-      <image:title>The Whispering Gallery 101117</image:title>
-      <image:caption>7</image:caption>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3c3bd3652deabe1f6042ef/1513896929782/mu-rong.jpg</image:loc>
+      <image:title>The Mu-Rong Family</image:title>
     </image:image>
   </url>
 </urlset>
