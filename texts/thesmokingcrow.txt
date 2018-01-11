@@ -18,10 +18,6 @@
       <image:title>Home</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5761e290414fb5a52ebdf91e/1466032785451/birdcage+lights.jpg</image:loc>
-      <image:title>Home</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5762f8d8bebafb91cc336231/1466104036209/IMG_2401.jpg</image:loc>
       <image:title>Home</image:title>
     </image:image>
@@ -29,6 +25,10 @@
       <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/58e4571ef7e0abde3be636fe/1491359557196/lady_cage.png</image:loc>
       <image:title>Home</image:title>
       <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5a4d9738e4966b5d9ec3def9/1515034428608/speakeasy+door.jpg</image:loc>
+      <image:title>Home</image:title>
     </image:image>
   </url>
   <url>

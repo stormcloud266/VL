@@ -1,1 +1,176 @@
-undefined
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://bigraven.com/podcast</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-12-19</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/576c9e24b3db2b0c4b0e76f9/1466736169536/House+Crows+sm.png</image:loc>
+      <image:title>Listen to the Podcast</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://bigraven.com/podcast/house crows</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-04-30</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/podcast/breakfast</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-04-30</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/podcast/2017/4/30/fish-soup</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-05-01</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/podcast/2017/12/18/the-nameless-tree</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-12-19</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/5a39784ae2c48373360d1c79/1513715799174/DRSPx23VwAAsGMg.jpg</image:loc>
+      <image:title>Listen to the Podcast - Episode 4: The Nameless Tree</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://bigraven.com/jackdaw</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-02-23</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af146717bffc1271946fc0/1487871118376/14.jpeg</image:loc>
+      <image:title>jackdaw</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14673a0411e385c06db2/1487869100309/9.jpeg</image:loc>
+      <image:title>jackdaw</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14a52994cafe3884876b/1487871118411/16.jpeg</image:loc>
+      <image:title>jackdaw</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14a5f7e0ab64d5e0acb0/1487871118461/19.jpeg</image:loc>
+      <image:title>jackdaw</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14a71b10e3e9c3a3b7dc/1487869216307/9.jpeg</image:loc>
+      <image:title>jackdaw</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/58af1c8e5016e19bc90d8ff7/1487869100309/</image:loc>
+      <image:title>jackdaw</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://bigraven.com/ttw</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-12-24</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/ttw/2017/5/2/as-it-ends</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-05-09</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/ttw/2017/5/9/prologue</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-05-09</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/ttw/2017/5/11/a-mini-episode</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-05-11</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/ttw/2017/10/4/a-reading-for-october</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-10-04</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/ttw/2017/12/24/a-reading-for-december</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2017-12-24</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/home</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2017-02-23</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/5793c5beff7c504fa51869a9/1469302240534/</image:loc>
+      <image:title>Big Raven</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://bigraven.com/about-big-raven</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-03-26</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/contact</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2016-06-25</lastmod>
+  </url>
+  <url>
+    <loc>http://bigraven.com/big-raven-tales</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2017-02-24</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/58ae094abf629aa0013cdc5f/1487800668674/</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+      <image:caption>Indra, a Hindu god, is the ruler of the clouds and sky. He has a favorite pet ape that shares in his adventures. The House Crows is based on a story of Indra and Ape on Mount Meru.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/58af6fa403596e0c2d73b8fd/1487892432617/The+Jackdaw+Page+1</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+      <image:caption>The Jackdaw, page one, full color</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/58ae040120099ef00e3bcc0e/1487799354926/</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+      <image:caption>  Fish Soup is based on a Lakota Sioux legend. It's  the story of a meeting between two tricksters, Big Raven and Coyote. The original version of this was the story of Coyote and Turtle having a race but the Big Raven version pits Coyote after his old friend in a top hat.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/t/58ae038f414fb5327e1cfb50/1487799231250/Breakfast</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+      <image:caption>Big Raven’s Breakfast is a reimaging of a reoccurring legend in many Native American tribes, ranging from the Navajo of Utah to the Haida of British Columbia. In this version, Big Raven is hungry (Big Raven is always hungry) when he sees the Sun in the sky. He decides he should fly up and eat the Sun.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af146717bffc1271946fc0/1487871118376/14.jpeg</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14673a0411e385c06db2/1487869100309/9.jpeg</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14a52994cafe3884876b/1487871118411/16.jpeg</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14a5f7e0ab64d5e0acb0/1487871118461/19.jpeg</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/572a4a2359827e929f0d5242/58af1450b3db2b05825df476/58af14a71b10e3e9c3a3b7dc/1487869216307/9.jpeg</image:loc>
+      <image:title>The Jackdaw - A Big Raven Tale</image:title>
+    </image:image>
+  </url>
+</urlset>
+

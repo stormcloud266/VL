@@ -44,7 +44,14 @@ function sitemapRequest(link, channel) {
   request(options, (function(error, response, body) {
 
     if(error) {console.log('err request')}
-    read(fileName, body, link, channel)
+
+      if (response.statusCode != 200) {
+        channel.send(`error retrieving ${options.url} --- status code: ${response.statusCode}`)
+      } else {
+        read(fileName, body, link, channel)
+      }
+
+    
   })); // end of request 
 }
 
@@ -80,14 +87,21 @@ function getContModDate(link, channel) {
 
   request(options, function(error, response, body) {
     if(error) {console.log('error')}
-    let info = JSON.parse(body);
-    let millis = info.website.contentModifiedOn;
 
-    if (millis < todaysMillis) {
-      channel.send('no changes at ' + link.split('.')[1])
-    } else {
-      channel.send('**please check ' + link + '**')
-    }
+      if (response.statusCode != 200) {
+        channel.send(`error retrieving ${options.url} --- status code: ${response.statusCode}`)
+      } else {
+
+        let info = JSON.parse(body);
+        let millis = info.website.contentModifiedOn;
+
+        if (millis < todaysMillis) {
+          channel.send('no changes at ' + link.split('.')[1])
+        } else {
+          channel.send('**please check ' + link + '**')
+        }
+
+      }
 });
 }
 

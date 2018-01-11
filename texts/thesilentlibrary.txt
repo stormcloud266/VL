@@ -142,7 +142,7 @@
     <loc>http://www.thesilentlibrary.org/donors</loc>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
-    <lastmod>2017-12-24</lastmod>
+    <lastmod>2017-12-31</lastmod>
     <image:image>
       <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3c155e9140b7cd5729c815/1513887195528/gitrult.png</image:loc>
       <image:title>Benefactors</image:title>
@@ -157,6 +157,10 @@
     </image:image>
     <image:image>
       <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3fee9671c10b33732eb17a/1514139316006/mu-rong.png</image:loc>
+      <image:title>Benefactors</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a48672e24a694278ee25067/1514694483631/cambei.png</image:loc>
       <image:title>Benefactors</image:title>
     </image:image>
   </url>
@@ -188,6 +192,16 @@
     <image:image>
       <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a3c3bd3652deabe1f6042ef/1513896929782/mu-rong.jpg</image:loc>
       <image:title>The Mu-Rong Family</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.thesilentlibrary.org/the-cambei-family</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.75</priority>
+    <lastmod>2018-01-02</lastmod>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/5775c8b4725e2555f219f688/t/5a4bb53b0d92976993831922/1514911077814/2c.jpg</image:loc>
+      <image:title>The Cambei Family</image:title>
     </image:image>
   </url>
 </urlset>
