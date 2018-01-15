@@ -203,7 +203,7 @@ const embed = {
     },
     {
       "name": "Useful things",
-      "value": "v.sitemap\n\tGets that good shit from the main sites.\n \nv.wiki search terms here\n\tSearches wikipedia for... things."
+      "value": "v.sitemap\n\tGets that good shit from the main sites.\nv.weather [city or postal code]\n\tgets current weather and tomorrow's forecast\nv.wiki search terms here\n\tSearches wikipedia for... things."
     },
     {
       "name": "Twitter related adventures",
