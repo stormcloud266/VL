@@ -11,6 +11,7 @@ deleteAndWrite = require('./scripts/deleteAndWrite'),
 twitter = require('./scripts/twitter'),
 wiki = require('./scripts/wiki'),
 replyPhrases = require('./scripts/replyPhrases'),
+weather = require('./scripts/weather'),
 
 bot = new Discord.Client();
 
@@ -32,6 +33,9 @@ bot.on('message', async message => {
 
 		let messageCont = message.content.split(' ');
 		let trigger = messageCont[0].toLowerCase().substr(2);
+
+		let noSpace = messageCont.splice(0,1);
+		let searchTerm = messageCont.toString().replace(/,/g," ");
 
 		
 
@@ -81,6 +85,12 @@ bot.on('message', async message => {
 				break;
 
 
+/////////// weather ///////////
+		case 'weather':
+			weather.getWeather(searchTerm, message);
+			break;
+
+
 /////////// horoscope ///////////
 		case 'aries':
 		case 'taurus':
@@ -116,8 +126,6 @@ bot.on('message', async message => {
 				break;
 
 			case 'wiki':
-				let noSpace = messageCont.splice(0,1)
-				let searchTerm = messageCont.toString().replace(/,/g," ");
 				wiki.getWiki(searchTerm, message.channel);
 				break;
 
