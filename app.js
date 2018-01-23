@@ -21,7 +21,7 @@ let helpText, tumblrInfo, eggplant, sites, derp, crab;
 bot.login(config.token);
 
 
-bot.on('ready', () => { bot.user.setGame('v.help') });
+bot.on('ready', () => { bot.user.setActivity('v.help') });
 
 
 bot.on('message', async message => {

@@ -303,15 +303,19 @@
     <loc>http://www.corvusfolio.com/nowshowing</loc>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
-    <lastmod>2017-10-30</lastmod>
+    <lastmod>2018-01-19</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/t/59f6860bec212d295bd21412/1509330243557/nowshowing2.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/t/5a6208fb9140b7807f6d76da/1516377117350/nowshowing_searchers.jpg</image:loc>
       <image:title>Now Showing</image:title>
     </image:image>
     <image:image>
       <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/59f6880053450a1e3bcb5896/59f688010852291b22a299d8/1509329418647/now+showing+1.jpg</image:loc>
       <image:title>Now Showing</image:title>
       <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/59f6880053450a1e3bcb5896/5a6205760852295a973fe4c6/1516373376472/Yellow-room-of-Texas2.jpg</image:loc>
+      <image:title>Now Showing</image:title>
     </image:image>
   </url>
   <url>

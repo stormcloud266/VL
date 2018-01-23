@@ -4,23 +4,6 @@ fs = require('fs');
 
 
 
-module.exports.updateMillis = (channel) => {
-  
-  try {
-    fs.unlinkSync('../texts/millis.txt');
-  }
-  catch(e) {
-    console.log('writing new file')
-  }
-  let currentMillis = +new Date();
-  fs.writeFile(__dirname + '/../texts/millis.txt', currentMillis, function(err) {
-        if(err) {return console.log(err);}
-      });
-  channel.send("Time updated");
-
-}
-
-
 /////// get and check site data ////////
 module.exports.checkSites = (sites, channel) => {
 
@@ -41,15 +24,15 @@ function sitemapRequest(link, channel) {
 
   let fileName = "/" + options.url.split('.')[1] + ".txt";
 
-  request(options, (function(error, response, body) {
+  request(options, ((error, response, body) => {
 
     if(error) {console.log('err request')}
 
-      if (response.statusCode != 200) {
-        channel.send(`error retrieving ${options.url} --- status code: ${response.statusCode}`)
-      } else {
-        read(fileName, body, link, channel)
-      }
+    if (response.statusCode !== 200) {
+      channel.send(`error retrieving ${options.url} --- status code: ${response.statusCode}`)
+    } else {
+      read(fileName, body, link, channel)
+    }
 
     
   })); // end of request 
@@ -58,9 +41,9 @@ function sitemapRequest(link, channel) {
 
 function read(file, requestBody, link, channel){
 
-  fs.readFile( __dirname + '/../texts/'+ file, 'utf8', function(err, contents) {
+  fs.readFile( __dirname + '/../texts/'+ file, 'utf8', (err, contents) => {
 
-    if(err) {console.log('err readFile')}
+    if(err) {channel.send('err readFile')}
 
     if(contents === requestBody){
     	channel.send('no changes at ' + link.split('.')[1]);
