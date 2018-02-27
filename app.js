@@ -37,7 +37,7 @@ bot.on('message', async message => {
 		let noSpace = messageCont.splice(0,1);
 		let searchTerm = messageCont.toString().replace(/,/g," ");
 
-		
+
 
 		switch (trigger) {
 
@@ -50,6 +50,18 @@ bot.on('message', async message => {
 				break;
 
 			case 'forgiveme':
+				let num = Math.floor(Math.random() * 10);
+				if (num === 6) {
+					message.channel.send({
+						"files": [`imgs/noforgiveness.jpg`]
+					});
+				} else {
+					message.channel.send({
+						"files": [`imgs/forgiveme.jpg`]
+					});
+				}
+				break;
+
 			case 'fucktrisk':
 			case 'brows':
 				message.channel.send({
@@ -155,7 +167,7 @@ bot.on('message', async message => {
 
 		} /////// end of switch ///////
 
-	} 
+	}
 
 }); ///////////// end of bot on message /////////////
 
@@ -178,7 +190,7 @@ eggplant =  ":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n
 			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
 			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
 			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
-			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n"; 
+			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n";
 sites = [
   'http://www.corvusfolio.com',
   'http://www.thesilentlibrary.org',
@@ -219,19 +231,3 @@ const embed = {
     }
   ]
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
