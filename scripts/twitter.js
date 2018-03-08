@@ -12,11 +12,11 @@ const T = new Twit({
 // let derp, crab;
 
 module.exports.getTwitter = (userID, term, link, channel) => {
-	T.get('search/tweets', { q: term + ' since:2011-07-11', count: 20 }, 
+	T.get('search/tweets', { q: term + ' since:2011-07-11', count: 20 },
 		function(err, data, response) {
 					let x = 0;
-					var checkID = function() {
-						
+					let checkID = function() {
+
 						if ((data.statuses[x].user.id) === userID) {
 
 							tweet = link + data.statuses[0].id_str;
@@ -39,4 +39,3 @@ module.exports.getTwitter = (userID, term, link, channel) => {
 
 // derp = [16796841, 'thederpydailycrow','https://twitter.com/margotg/status/']
 // crab = [864156437496307712, 'CrabADay', 'https://twitter.com/HussarArg/status/']
-

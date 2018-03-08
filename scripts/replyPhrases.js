@@ -2,14 +2,14 @@
 
 // vebswisdom
 module.exports.twitterMessage = (trigger, userURL, channel) => {
-	let tweet = userURL + replyPhrases[trigger][randNum(trigger)];
+	const tweet = userURL + replyPhrases[trigger][randNum(trigger)];
 	channel.send(tweet);
 }
 
 
 // toast
 module.exports.textAndPhoto = (trigger, channel) => {
-	let text = replyPhrases[trigger][randNum(trigger)]
+	const text = replyPhrases[trigger][randNum(trigger)]
 	channel.send(text, {
 		"files": [`imgs/${trigger}/` + (randNum(trigger) + 1) + ".jpg"]
 	})
@@ -22,12 +22,12 @@ module.exports.textOnly = (trigger, message) => {
 }
 
 
-function randNum(arg) {
-	return index = Math.floor(Math.random() * replyPhrases[arg].length)
+const randNum = (arg) => {
+	return Math.floor(Math.random() * replyPhrases[arg].length)
 }
 
 
-let replyPhrases = {
+const replyPhrases = {
 	'managementpassword' : [
 		'mango',
 		'figure it out already omg',

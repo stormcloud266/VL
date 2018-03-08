@@ -27,8 +27,9 @@
       <image:caption />
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5a4d9738e4966b5d9ec3def9/1515034428608/speakeasy+door.jpg</image:loc>
-      <image:title>Home</image:title>
+      <image:loc>https://static1.squarespace.com/static/5761dc91e6f2e156711a2803/5761e26c414fb5a52ebdf813/5a4d9738e4966b5d9ec3def9/1518532214491/speakeasy+door.jpg</image:loc>
+      <image:title>Home - Enter</image:title>
+      <image:caption />
     </image:image>
   </url>
   <url>

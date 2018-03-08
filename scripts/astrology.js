@@ -6,7 +6,7 @@ module.exports.fetchHoroscope  = (sign, channel) => {
 	// let horoscopeURL = `http://horoscope-api.herokuapp.com/horoscope/today/${sign}`;
 
 	// main site
-	let horoscopeURL = `http://sandipbgt.com/theastrologer/api/horoscope/${sign}/today/`;
+	const horoscopeURL = `http://sandipbgt.com/theastrologer/api/horoscope/${sign}/today/`;
 
 	request({
 		url: horoscopeURL,
@@ -25,9 +25,7 @@ module.exports.fetchHoroscope  = (sign, channel) => {
 			  	value: body.horoscope
 			  }]
 			 }});
-			
+
 		}
 	});
 }
-
-

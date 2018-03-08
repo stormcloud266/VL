@@ -3,15 +3,15 @@ fs = require('fs');
 
 
 module.exports.updateMillis = (channel) => {
-  
+
   try {
     fs.unlinkSync('../texts/millis.txt');
   }
-  catch(e) {
+  catch (e) {
     console.log('writing new file')
   }
   let currentMillis = +new Date();
-  fs.writeFile(__dirname + '/../texts/millis.txt', currentMillis, function(err) {
+  fs.writeFile(__dirname + '/../texts/millis.txt', currentMillis, (err) => {
         if(err) {return console.log(err);}
       });
   channel.send("Time updated");
@@ -20,51 +20,48 @@ module.exports.updateMillis = (channel) => {
 
 ////////// deletes text files and calls write function //////////
 module.exports.deleteFiles = (sites, channel) => {
-	for (let i = 0; i < sites.length; i++) {
 
-		let name = __dirname + '/../texts/' + sites[i].split('.')[1] +'.txt'
-		fs.unlink(name, function(error) {	
-			if (error) {
-				console.log(error);
+  for (const site of sites) {
+
+    const name = __dirname + '/../texts/' + site.split('.')[1] +'.txt';
+
+    fs.unlink(name, (err) => {
+
+			if (err) {
+				console.log(err);
 			} else {
-				channel.send(sites[i] + ' was deleted')
+				channel.send(site + ' was deleted')
 			}
+      write(site, channel)
 		});
-	}
-
-	write(sites, channel)
+ }
+ console.log('hi');
 }
 
-function write(sites, channel) {
+const write = (site, channel) => {
 
-	for (let i = 0; i < sites.length; i++) {
-
-		let options = {
-			url: sites[i] + '/sitemap.xml',
+    const options = {
+			url: site + '/sitemap.xml',
 			headers: {
 			'User-Agent': 'request'
 			}
 		};
 
-		let fileName = "/../texts/" + sites[i].split('.')[1] + ".txt";
+    const fileName = "/../texts/" + site.split('.')[1] + ".txt";
 
-		request(options, function(error, response, body) {
+    request(options, (err, response, body) => {
 			if(error) {
-				console.log("Error: " + error);
+				console.log("Error: " + err);
 			} else {
 				fs.writeFile(__dirname + fileName, body, (err) => {
 					if(err) {
 						return console.log(err);
 					} else {
-						channel.send(sites[i] + ' was written')
+						channel.send(site + ' was written')
 					}
 				});
 			}
-			
 
-		});
-	}
+		}); // end of request
+
 }
-
-
-

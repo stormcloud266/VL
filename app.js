@@ -15,9 +15,6 @@ weather = require('./scripts/weather'),
 
 bot = new Discord.Client();
 
-
-let helpText, tumblrInfo, eggplant, sites, derp, crab;
-
 bot.login(config.token);
 
 
@@ -31,11 +28,11 @@ bot.on('message', async message => {
 
 	if(message.content.substr(0,2).toLowerCase() === config.prefix) {
 
-		let messageCont = message.content.split(' ');
-		let trigger = messageCont[0].toLowerCase().substr(2);
+		const messageCont = message.content.split(' '),
+		trigger = messageCont[0].toLowerCase().substr(2);
 
-		let noSpace = messageCont.splice(0,1);
-		let searchTerm = messageCont.toString().replace(/,/g," ");
+		const noSpace = messageCont.splice(0,1),
+		searchTerm = messageCont.toString().replace(/,/g," ");
 
 
 
@@ -50,7 +47,7 @@ bot.on('message', async message => {
 				break;
 
 			case 'forgiveme':
-				let num = Math.floor(Math.random() * 10);
+				const num = Math.floor(Math.random() * 10);
 				if (num === 6) {
 					message.channel.send({
 						"files": [`imgs/noforgiveness.jpg`]
@@ -64,9 +61,7 @@ bot.on('message', async message => {
 
 			case 'fucktrisk':
 			case 'brows':
-				message.channel.send({
-					"files": [`imgs/${trigger}.jpg`]
-				});
+				message.channel.send({ "files": [`imgs/${trigger}.jpg`] });
 				break;
 
 			case 'homies':
@@ -155,13 +150,11 @@ bot.on('message', async message => {
 
 			case 'updatemillis':
 				if (message.author.id == '308072773320835092') {
-					scraper.updateMillis(message.channel)
+					deleteAndWrite.updateMillis(message.channel)
 				} else (message.channel.send('you do not have permission to do this'))
 				break;
 
 
-
-/////////// default ///////////
 			default:
 				return;
 
@@ -172,7 +165,7 @@ bot.on('message', async message => {
 }); ///////////// end of bot on message /////////////
 
 
-function getPhotos(trigger, channel) {
+const getPhotos = (trigger, channel)  => {
 	let index = Math.floor(Math.random() * 44) + 1;
 	channel.send({
 		"files": [`imgs/${trigger}/${index.toString()}.jpg`]
@@ -180,26 +173,24 @@ function getPhotos(trigger, channel) {
 }
 
 
-derp = [16796841, 'thederpydailycrow','https://twitter.com/margotg/status/'];
-crab = [864156437496307712, 'CrabADay', 'https://twitter.com/HussarArg/status/'];
-
-
+const derp = [16796841, 'thederpydailycrow','https://twitter.com/margotg/status/'],
+crab = [864156437496307712, 'CrabADay', 'https://twitter.com/HussarArg/status/'],
 
 eggplant =  ":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
 			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
 			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
 			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
 			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n" +
-			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n";
+			":eggplant: :eggplant: :eggplant: :eggplant: :eggplant: :eggplant:\n",
+
 sites = [
   'http://www.corvusfolio.com',
   'http://www.thesilentlibrary.org',
   'http://www.thesmokingcrow.com',
   'http://www.bigraven.com'
-];
+],
 
-
-const embed = {
+embed = {
   "title": "May Veb's Light shine upon you.",
   "description": "Hello! Do you want to find hot singles in your area?\nIf so, please click [here](https://www.fbi.gov/)!\nOtherwise, continue reading to learn all about this mostly useless bot.\n\n",
   "color": 4627620,

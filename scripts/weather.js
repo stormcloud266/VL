@@ -1,17 +1,17 @@
 const axios = require('axios');
 const config = require('../config.json');
 
-let celsius = (temp) => {
-	let celsRaw = (temp - 32) * 5/9;
-	let celsRounded = Math.round(celsRaw * 100) / 100;
+const celsius = (temp) => {
+	const celsRaw = (temp - 32) * 5/9;
+	const celsRounded = Math.round(celsRaw * 100) / 100;
 	return celsRounded;
-}
+};
 
 
 module.exports.getWeather = (address, message) => {
 
-	let encodedAddress = encodeURIComponent(address);
-	let geoDataURL = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`;
+	const encodedAddress = encodeURIComponent(address);
+	const geoDataURL = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`;
 
 	axios.get(geoDataURL).then((response) => {
 
@@ -21,10 +21,9 @@ module.exports.getWeather = (address, message) => {
 			throw new Error('Unable to find that address. Please try again')
 		}
 
-		let lat = response.data.results[0].geometry.location.lat;
-		let lng = response.data.results[0].geometry.location.lng;
-
-		let weatherURL = `https://api.darksky.net/forecast/${config.weatherAPI}/${lat},${lng}`;
+		const lat = response.data.results[0].geometry.location.lat,
+		lng = response.data.results[0].geometry.location.lng,
+		weatherURL = `https://api.darksky.net/forecast/${config.weatherAPI}/${lat},${lng}`;
 
 		return axios.get(weatherURL);
 
@@ -37,7 +36,7 @@ module.exports.getWeather = (address, message) => {
 		};
 
 		// current conditions
-		let currentObj = {
+		const currentObj = {
 			temperatureF: response.data.currently.temperature,
 			temperatureC: celsius(response.data.currently.temperature),
 			apparentTemperatureF: response.data.currently.apparentTemperature,
@@ -46,7 +45,7 @@ module.exports.getWeather = (address, message) => {
 		};
 
 		// forecast
-		let forecastObj = {
+		const forecastObj = {
 			tempHighF: response.data.daily.data[0].temperatureHigh,
 			tempHighC: celsius(response.data.daily.data[0].temperatureHigh),
 			tempLowF: response.data.daily.data[0].temperatureLow,
@@ -54,9 +53,9 @@ module.exports.getWeather = (address, message) => {
 			forecastSummary: response.data.daily.data[0].summary
 		};
 
-		
 
-		let weatherResult = {
+
+		const weatherResult = {
 		  "title": "Weather",
 		  "color": 4627620,
 		  "fields": [
@@ -100,30 +99,3 @@ module.exports.getWeather = (address, message) => {
 		}
 	});
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
