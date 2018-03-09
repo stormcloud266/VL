@@ -3,10 +3,10 @@ const request = require('request');
 
 module.exports.fetchHoroscope  = (sign, channel) => {
 	// if main site is down
-	// let horoscopeURL = `http://horoscope-api.herokuapp.com/horoscope/today/${sign}`;
+	const horoscopeURL = `http://horoscope-api.herokuapp.com/horoscope/today/${sign}`;
 
 	// main site
-	const horoscopeURL = `http://sandipbgt.com/theastrologer/api/horoscope/${sign}/today/`;
+	// const horoscopeURL = `http://sandipbgt.com/theastrologer/api/horoscope/${sign}/today/`;
 
 	request({
 		url: horoscopeURL,

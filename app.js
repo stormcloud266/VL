@@ -66,6 +66,7 @@ bot.on('message', async message => {
 
 			case 'homies':
 			case 'boom':
+			case 'slide':
 				message.channel.send({
 					"files": [`imgs/${trigger}.gif`]
 				});
