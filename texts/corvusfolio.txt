@@ -309,22 +309,23 @@
       <image:title>Now Showing</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/59f6880053450a1e3bcb5896/59f688010852291b22a299d8/1509329418647/now+showing+1.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/59f6880053450a1e3bcb5896/5aaedf170e2e725448f34190/1521411687184/now+showing+1.jpg</image:loc>
       <image:title>Now Showing</image:title>
       <image:caption />
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/59f6880053450a1e3bcb5896/5a6205760852295a973fe4c6/1516373376472/Yellow-room-of-Texas2.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/59f6880053450a1e3bcb5896/5a6205760852295a973fe4c6/1521411717093/Yellow-room-of-Texas2.jpg</image:loc>
       <image:title>Now Showing</image:title>
+      <image:caption />
     </image:image>
   </url>
   <url>
     <loc>http://www.corvusfolio.com/ns1</loc>
     <changefreq>daily</changefreq>
     <priority>0.75</priority>
-    <lastmod>2017-10-30</lastmod>
+    <lastmod>2018-03-18</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/t/59f688592774d1138ba16a54/1509329268681/now+showing+1.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/t/5aaee611352f533ca572c7b8/1521411625338/now+showing+1.jpg</image:loc>
       <image:title>NS1</image:title>
     </image:image>
   </url>
@@ -356,11 +357,11 @@
     <priority>0.5</priority>
     <lastmod>2017-03-31</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/577f006dbebafb28867c7de0/5793e064d1758ec97e7c785d/1490974929904/IMG_3287.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/577f006dbebafb28867c7de0/5793e2d337c58136e651d78a/1490974929924/IMG_3257.jpg</image:loc>
       <image:title>Buy The Arca - The Arca</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/577f006dbebafb28867c7de0/5793e2d337c58136e651d78a/1490974929924/IMG_3257.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/577f006dbebafb28867c7de0/5793e064d1758ec97e7c785d/1490974929904/IMG_3287.jpg</image:loc>
       <image:title>Buy The Arca - The Arca</image:title>
     </image:image>
   </url>
@@ -376,15 +377,11 @@
     <priority>0.5</priority>
     <lastmod>2017-04-28</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fb086b8f5b356ab4620d/1469315852804/IMG_3287.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fef84402433b8b421495/1493412701535/IMG_3276.jpg</image:loc>
       <image:title>The Reliquary - The Arca (PREORDER)</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fb17b3db2bd9ef418e0b/1493412701483/IMG_3259.jpg</image:loc>
-      <image:title>The Reliquary - The Arca (PREORDER)</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fef63e00bea943614c75/1493412701488/IMG_3266.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fef73e00bea943614c7b/1493412701530/IMG_3275.jpg</image:loc>
       <image:title>The Reliquary - The Arca (PREORDER)</image:title>
     </image:image>
     <image:image>
@@ -396,11 +393,15 @@
       <image:title>The Reliquary - The Arca (PREORDER)</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fef84402433b8b421495/1493412701535/IMG_3276.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fef63e00bea943614c75/1493412701488/IMG_3266.jpg</image:loc>
       <image:title>The Reliquary - The Arca (PREORDER)</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fef73e00bea943614c7b/1493412701530/IMG_3275.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fb17b3db2bd9ef418e0b/1493412701483/IMG_3259.jpg</image:loc>
+      <image:title>The Reliquary - The Arca (PREORDER)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fb086b8f5b356ab4620d/1469315852804/IMG_3287.jpg</image:loc>
       <image:title>The Reliquary - The Arca (PREORDER)</image:title>
     </image:image>
   </url>
@@ -410,11 +411,11 @@
     <priority>0.5</priority>
     <lastmod>2017-03-29</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fdcf2994cace5cb535f6/1469316563323/IMG_3291.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fddc2994cace5cb53645/1469316577161/IMG_3293.jpg</image:loc>
       <image:title>The Reliquary - The Matchbox</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fddc2994cace5cb53645/1469316577161/IMG_3293.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5793fdcf2994cace5cb535f6/1469316563323/IMG_3291.jpg</image:loc>
       <image:title>The Reliquary - The Matchbox</image:title>
     </image:image>
   </url>
@@ -434,11 +435,7 @@
     <priority>0.5</priority>
     <lastmod>2017-05-22</lastmod>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5903a7e1be6594dbaf9686c3/1493411814738/IMG_0425.jpg</image:loc>
-      <image:title>The Reliquary - ADA U(V) Keychain UV Light</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5903a7e1e58c628c71ff133e/1493411817233/IMG_0424.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5903a7e7e58c628c71ff139b/1493411825713/IMG_0444.jpg</image:loc>
       <image:title>The Reliquary - ADA U(V) Keychain UV Light</image:title>
     </image:image>
     <image:image>
@@ -446,7 +443,11 @@
       <image:title>The Reliquary - ADA U(V) Keychain UV Light</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5903a7e7e58c628c71ff139b/1493411825713/IMG_0444.jpg</image:loc>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5903a7e1be6594dbaf9686c3/1493411814738/IMG_0425.jpg</image:loc>
+      <image:title>The Reliquary - ADA U(V) Keychain UV Light</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://static1.squarespace.com/static/56e8b63407eaa0eb5861b382/5793fac946c3c46fbe78dab6/5903a7e1e58c628c71ff133e/1493411817233/IMG_0424.jpg</image:loc>
       <image:title>The Reliquary - ADA U(V) Keychain UV Light</image:title>
     </image:image>
   </url>

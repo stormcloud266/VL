@@ -50,7 +50,7 @@ const write = (site, channel) => {
     const fileName = "/../texts/" + site.split('.')[1] + ".txt";
 
     request(options, (err, response, body) => {
-			if(error) {
+			if(err) {
 				console.log("Error: " + err);
 			} else {
 				fs.writeFile(__dirname + fileName, body, (err) => {
