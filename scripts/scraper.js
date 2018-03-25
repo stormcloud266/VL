@@ -44,7 +44,7 @@ const read = (file, requestBody, link, channel) => {
     } else if(contents === requestBody){
     	channel.send(`no changes at ${link.split('.')[1]}`);
     } else {
-	     channel.send(`**please check ${link}/sitemap.xml**'`);
+	     channel.send(`**please check ${link}/sitemap.xml**`);
     }
   });
 
