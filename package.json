@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1",
-    "discord.js": "^11.3.0",
+    "discord.js": "^11.3.2",
     "get-json": "^1.0.0",
     "is-json": "^2.0.1",
     "twit": "^2.2.9"
