@@ -12,6 +12,7 @@ twitter = require('./scripts/twitter'),
 wiki = require('./scripts/wiki'),
 replyPhrases = require('./scripts/replyPhrases'),
 weather = require('./scripts/weather'),
+tastedive = require('./scripts/tastedive'),
 
 bot = new Discord.Client();
 
@@ -29,6 +30,7 @@ bot.on('message', async message => {
 	if(message.content.substr(0,2).toLowerCase() === config.prefix) {
 
 		const messageCont = message.content.split(' '),
+		cleanedText = messageCont.slice(1, messageCont.length),
 		trigger = messageCont[0].toLowerCase().substr(2);
 
 		const noSpace = messageCont.splice(0,1),
@@ -114,6 +116,11 @@ bot.on('message', async message => {
 		case 'pisces':
 			astrology.fetchHoroscope(trigger, message.channel);
 			break;
+
+/////////// tastedive ///////////
+case 'recs':
+	tastedive.getRecommendations(message.channel, cleanedText);
+	break;
 
 
 /////////// twitter, tumblr, and wikipedia ///////////
@@ -203,23 +210,27 @@ embed = {
   "fields": [
     {
       "name": "Eat, drink, and pet an animal.",
-      "value": "v.food\nv.recipe\nv.coffee\nv.cats\nv.dogs\nv.brows"
+      "value": "v.food\nv.recipe\nv.coffee\nv.cats\nv.dogs\nv.brows\n----------"
     },
     {
       "name": "Useful things",
-      "value": "v.sitemap\n\tGets that good shit from the main sites.\nv.weather [city or postal code]\n\tgets current weather and tomorrow's forecast\nv.wiki search terms here\n\tSearches wikipedia for... things."
+      "value": "v.sitemap\n\tGets that good shit from the main sites.\nv.weather [city or postal code]\n\tGets current weather and tomorrow's forecast\nv.wiki search terms here\n\tSearches wikipedia for... things.\n----------"
+    },
+		{
+      "name": "Get Recommendations",
+      "value": "v.recs\nRecommends related titles based on search terms.\nSearch with -t to set type. Available types are 'music', 'movies', 'shows', 'books', 'authors', or 'games'.\nSearch with -r to get up to 20 results.\n--\nExample searches:\nv.recs black mirror\nv.recs harry potter -t movies\nv.recs david bowie -r 10\nv.recs trainspotting -t books -r 15\n----------"
     },
     {
       "name": "Twitter related adventures",
-      "value": "v.currentderp\nv.currentcrab\nv.vebswisdom"
+      "value": "v.currentderp\nv.currentcrab\nv.vebswisdom\n----------"
     },
     {
       "name": "Horoscope",
-      "value": "v.yoursign (e.g., v.scorpio)"
+      "value": "v.yoursign (e.g., v.scorpio)\n----------"
     },
     {
       "name": "The rest",
-      "value": "v.homies\nv.toast\nv.eggplant\nv.compliment\nv.managementpassword\nv.forgiveme\nv.fucktrisk\nv.boom"
+      "value": "v.homies\nv.toast\nv.eggplant\nv.compliment\nv.managementpassword\nv.forgiveme\nv.fucktrisk\nv.boom\n----------"
     }
   ]
 };
